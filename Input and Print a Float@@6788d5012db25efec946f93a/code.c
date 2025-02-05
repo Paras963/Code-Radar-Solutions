@@ -4,6 +4,6 @@
 
 int main() {
    float a;
-   scanf("%f",&a);
+   scanf("you entered:%f",&a);
     return 0;
 }
