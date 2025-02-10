@@ -10,7 +10,7 @@ int main() {
         print("True");
     }
     else{
-        print("false");
+        print("False");
     }
     return 0;
   
