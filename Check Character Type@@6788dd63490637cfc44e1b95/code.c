@@ -12,6 +12,7 @@ int main() {
     // Check if the character is a digit
     if (isdigit(ch)) {
         printf("Digit");
+    }    
     // Check if the character is a vowel (both lowercase and uppercase)
     else if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
              ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
@@ -23,7 +24,7 @@ int main() {
     }
     // If the character doesn't match any of the above, it's a special character
     else {
-        printf(" Special Character");
+        printf("Special Character");
     }
 
     return 0;
