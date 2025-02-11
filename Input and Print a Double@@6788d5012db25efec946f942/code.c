@@ -4,8 +4,8 @@
 
 int main() {
     float a;
-    scanf("%f",&a);
-    printf("You entered: %.4f\n",a);
+    scanf("%lf",&a);
+    printf("You entered: %.4lf\n",a);
     
     return 0;
 }
