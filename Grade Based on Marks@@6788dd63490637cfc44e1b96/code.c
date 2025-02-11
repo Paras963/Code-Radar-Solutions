@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    
+
     int a;
     scanf("%d",&a);
     if (a>=90){
@@ -23,6 +23,6 @@ int main(){
     else{
         printf("F");
     }
-    }
 
+}
     
