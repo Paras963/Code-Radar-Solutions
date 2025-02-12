@@ -12,13 +12,11 @@ int main(){
             printf(" ");
         }
         for(j=1;j<=2*i-1;j++){
-          if(i==1){
-            printf(" * ");
+        
 
-          }
-          else{
+        
             printf("*");
-          }
+          
         }
         printf("\n");
     }    
