@@ -7,11 +7,12 @@ int main(){
             if(j!=i){
                 printf("* ");
                             
-        }
-        else{
+            }
+            else{
             printf("*");
-        }
+            }
         printf("\n");
-    }
+        }
     return 0;
-}
+    }
+}    
