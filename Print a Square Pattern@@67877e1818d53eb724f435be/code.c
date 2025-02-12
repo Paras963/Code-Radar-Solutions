@@ -7,8 +7,10 @@ int main(){
             if(j!=n){
                 printf("* ");
             }
-            else;
-            printf("*");
+            else{
+                printf("*");
+            }
+            
 
         }
         printf("\n");
