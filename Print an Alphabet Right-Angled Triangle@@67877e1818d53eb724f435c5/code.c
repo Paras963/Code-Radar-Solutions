@@ -13,11 +13,11 @@ int main() {
         ch = 'A';
         for (j = 1; j <= i; j++) {
           if (j!=i){
-            printf("%ch ",ch);
+            printf("%c ",ch);
 
           }
           else{
-            printf("%ch",ch);
+            printf("%c",ch);
           }
           ch++;
         }
