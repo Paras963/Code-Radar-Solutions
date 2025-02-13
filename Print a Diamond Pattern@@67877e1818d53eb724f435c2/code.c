@@ -12,6 +12,7 @@ int main(){
 
         }
     }
+    printf("\n");
     for(i=n;i>=1;i--){
         for(j=1;j<=n-i;j++){
             printf(" ");
@@ -24,5 +25,6 @@ int main(){
 
 
     }
+    printf("\n");
     return 0;
 }    
