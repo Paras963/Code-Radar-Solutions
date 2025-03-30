@@ -10,14 +10,14 @@ int bubbleSort(int arr[],int n){
             if(arr[j]>arr[j+1]){
                 int temp=arr[j];
                 arr [j]=arr[j+1];
-                int temp=arr [j+1];
+                temp=arr [j+1];
                 return 0;
             }
         }
     }
 }
 void printArray(int arr[],int n){
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         printf("%d",arr[i])
     }
 }
