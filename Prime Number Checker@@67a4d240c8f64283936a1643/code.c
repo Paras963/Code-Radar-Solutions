@@ -1,5 +1,5 @@
 #include <math.h>
-int isPrime(int n)
+int isPrime(int n);
 int isPrime(int n){
     if(n<=1){
         return 0;
@@ -9,6 +9,9 @@ int isPrime(int n){
         if(n%i==0){
             return 0;
         }
-        return 1;
+        else{
+            return 1;
+        }
+        
     }
 }
